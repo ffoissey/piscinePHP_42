@@ -12,7 +12,7 @@ body {
 }
 .day-42 {
 	padding-top: 10px;
-	padding-left: 11px;
+	padding-left: 10px;
 	height: 110px;
 	border-radius: 10px;
 }
@@ -25,7 +25,7 @@ body {
 	width: 20px;
 }
 .close {
-	padding: 70px 10px 0 0;
+	padding: 73px 0 0;
 	width: 20px;
 }
 .loupe {
@@ -52,7 +52,7 @@ body {
 	display:inline-block;
 	margin: 0px auto;
 	background-color: #909090;
-	height: 578px;
+	height: 582px;
 	width: 1020px;
 	border-radius: 10px;
 	box-shadow: 10px 10px 10px black;
@@ -64,7 +64,7 @@ body {
 	width: 520px;
 	height: 170px;
 	position: relative;
-	bottom: 75px;
+	bottom: 80px;
 	left: -45px;
 }
 .left_img {
@@ -76,9 +76,10 @@ body {
 .oeil {
 	border: solid 5px red;
 	border-radius: 5px;
-	margin: -6px -5px;
+	margin: -5px -5px;
 }
 .cluster {
 	padding: 10px;
 	width: 1000px;
+	height: 562px;
 }
