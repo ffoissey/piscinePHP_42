@@ -1,0 +1,82 @@
+body {
+	background-color: lightgrey;
+}
+header {
+	width: 794px;
+	margin: 0 auto;
+	color: black;
+}
+.atome {
+	margin-left: 38%;
+	margin-right: 2%;
+	width:25%;
+	max-width:50px;
+}
+h1 {
+	padding-top: 10px;
+}
+
+h2 {
+	font-size: 0.9em;
+}
+
+header img{
+	float:left;
+	width: 50px;
+}
+table {
+	margin: 0 auto;
+}
+td {
+	border: solid 2px black;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+}
+.num {
+	margin: 0 auto;
+	font-size: 0.8em;
+	text-align: left;
+	vertical-align: bottom;
+}
+.atomic {
+	margin: 0 auto;
+	font-size: 0.8em;
+	text-align: right;
+	vertical-align: top;
+}
+.alkali-metal {
+	background-color: red;
+}
+.alkali-earth-metal {
+	background-color: orange;
+}
+.lanthanide {
+	background-color: brown;
+}
+.actinide {
+	background-color: purple;
+}
+.transition-metal {
+	background-color: pink;
+}
+.post-transition-metal {
+	background-color: lightgreen;
+}
+.metalloid {
+	background-color: green;
+}
+.reactive-nonmetal {
+	background-color: yellow;
+}
+.noble-gas {
+	background-color: lightblue;
+}
+.unknow-chemical-prop {
+	background-color: grey;
+}
+.copyright {
+	float: right;
+	font-family: monospace;
+	font-style: italic;
+}
