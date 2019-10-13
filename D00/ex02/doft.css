@@ -2,8 +2,8 @@ body {
 	background-color: #505050;
 }
 .head-content {
-	width: 1100px;
-	height: 120px;
+	width: 1420px;
+	height: 137px;
 	margin: 0 auto;
 	background-color: #909090;
 	border-radius: 10px;
@@ -12,7 +12,8 @@ body {
 }
 .day-42 {
 	padding-top: 10px;
-	height: 100px;
+	padding-left: 11px;
+	height: 110px;
 	border-radius: 10px;
 }
 .right_icon {
@@ -24,12 +25,60 @@ body {
 	width: 20px;
 }
 .close {
-	padding: 60px 10px 0 0;
+	padding: 70px 10px 0 0;
 	width: 20px;
 }
 .loupe {
 	float: right;
-	padding-top: 20px;
-	height: 120px;
+	padding-top: 10px;
+	height: 147px;
 }
-
+.container {
+	width: 1420px;
+	height: 575px;
+	padding: 0;
+	margin: 0 auto;
+}
+.side_block {
+	display:inline-block;
+	background-color: #909090;
+	height: 425px;
+	width: 140px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+	margin: 0px 30px; 
+}
+.main_block {
+	display:inline-block;
+	margin: 0px auto;
+	background-color: #909090;
+	height: 578px;
+	width: 1020px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+}
+.green_box {
+	background-color: #88ff89;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px black;
+	width: 520px;
+	height: 170px;
+	position: relative;
+	bottom: 75px;
+	left: -45px;
+}
+.left_img {
+	margin: 6px 32px;
+}
+.left_img img {
+	width: 70px;
+}
+.oeil {
+	border: solid 5px red;
+	border-radius: 5px;
+	margin: -6px -5px;
+}
+.cluster {
+	padding: 10px;
+	width: 1000px;
+}
