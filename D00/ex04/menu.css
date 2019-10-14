@@ -4,6 +4,7 @@ body {
 	background: url("https://www.chambre237.com/wp-content/uploads/2014/11/101-Repas-%C3%A9tranges-dans-le-Monde-027.jpg") no-repeat;
 	background-size:cover;
 	background-position:0px 160px;
+	min-width: 1010px;
 	margin: 0;
 }
 
