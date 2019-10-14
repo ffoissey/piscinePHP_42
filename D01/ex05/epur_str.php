@@ -1,5 +1,9 @@
 #!/usr/bin/php
 <?php
 	if ($argc > 1)
-		echo preg_replace('/ +/', ' ', $argv[1])."\n";
+	{
+		$out = preg_replace('/ +/', ' ', $argv[1]);
+		$out = preg_replace('/^ | $/', '', $out);
+		echo $out."\n";
+	}
 ?>
