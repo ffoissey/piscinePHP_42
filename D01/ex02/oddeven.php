@@ -9,7 +9,7 @@
 		if (is_numeric($nb) == true)
 		{
 			echo "Le chiffre $nb " ;
-			if ($nb % 2 == true)
+			if ($nb[strlen($nb) - 1] % 2 == true)
 				echo "Impair\n"; 
 			else
 				echo "Pair\n"; 
