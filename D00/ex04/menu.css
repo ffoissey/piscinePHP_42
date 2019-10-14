@@ -1,0 +1,78 @@
+body {
+
+	background-color: lightgrey;
+	background: url("https://www.chambre237.com/wp-content/uploads/2014/11/101-Repas-%C3%A9tranges-dans-le-Monde-027.jpg") no-repeat;
+	background-size:cover;
+	background-position:0px 160px;
+	margin: 0;
+}
+
+header {
+	display: inline-block;
+	width: 100%;
+	font-family: cursive;
+	font-size: 1.7em;
+	border-bottom: 3px solid black;
+	text-align: center;
+	margin-bottom: 50px;
+	background-color: grey;
+}
+
+.container {
+	margin: auto;
+	overflow:hidden;
+	background-color: lightblue;
+	border: 3px solid blue;
+	border-radius: 10px;
+	width: 1004px;
+	height: 170px;
+}
+
+.type {
+	font-family: "Comic Sans Ms";
+	font-size: 1.2em;
+	display: inline-block;
+	text-align: center;
+	width: 300px;
+	border: 2px dotted purple;
+	background-color: lightpink;
+	height: 150px;
+	margin: 10px 14px;
+}
+
+.menu {
+	cursor: pointer;
+	margin: 10px auto;
+	font-size: 1em;
+	width: 150px;
+	height: 30px;
+	font-family: cursive;
+	border: 1px solid green;
+	background: lightgreen;
+}
+
+.menu ul {
+	width: 152px;
+	margin: 0;
+	margin-top: -30px;
+	margin-left: -41px;
+	padding-top: 30px;
+	padding-right: 40px;
+	list-style-type: none;
+	visibility: hidden;
+}
+
+.menu:hover ul {
+	border-bottom: none;
+    visibility: visible;
+}
+
+li {
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+	background: brown;
+}
+
+li:hover {
+	background: red;
+}
