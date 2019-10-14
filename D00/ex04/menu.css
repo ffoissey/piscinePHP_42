@@ -36,6 +36,9 @@ header {
 	width: 300px;
 	border: 2px dotted purple;
 	background-color: lightpink;
+	background: url("https://www.pharmacieagnespraden.com/56262-large_default/feed-barre-noix-de-coco-chocolat.jpg") no-repeat;
+	background-size:cover;
+	background-position:0px -60px;
 	height: 150px;
 	margin: 10px 14px;
 }
