@@ -8,24 +8,28 @@ body {
 	background-color: lightgrey;
 }
 header {
-	width: 250px;
-	margin: 0 auto;
-	color: Black;
+	width: 1500px;
+	color: black;
 	text-align: center;
+	margin: 0 auto;
+}
+.atome {
+	display: inline-block;
+	width: 50px;
+}
+.atome img{
+	position: absolute;
+	margin-top: -25px;
+	width: 50px;
 }
 h1 {
-	padding-top: 10px;
+	display: inline-block;
 }
-
 h2 {
 	font-size: 0.9em;
 }
-
-header img{
-	float:left;
-	width: 50px;
-}
 table {
+	width: 1500px;
 	margin: 0 auto;
 }
 td {
@@ -85,7 +89,9 @@ td {
 </head>
 <body>
 	<header>
-		<img src="https://cdn.pixabay.com/photo/2013/07/12/18/15/atom-nucleus-153152_960_720.png" alt="atome">
+		<figure class="atome">
+			<img src="https://cdn.pixabay.com/photo/2013/07/12/18/15/atom-nucleus-153152_960_720.png" alt="atome">
+		</figure>
 		<h1>Mendeleïev</h1>
 	</header>
 	<table>
