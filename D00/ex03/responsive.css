@@ -2,46 +2,33 @@ body {
 	background-color: lightgrey;
 }
 header {
-	width: 794px;
 	margin: 0 auto;
+	text-align: center;
 	color: black;
 }
-.atome {
-	margin-left: 38%;
-	margin-right: 2%;
-	width:25%;
-	max-width:50px;
+.atome img{
+	width: 18%;
 }
-h1 {
-	padding-top: 10px;
-}
-
 h2 {
-	font-size: 0.9em;
-}
-
-header img{
-	float:left;
-	width: 50px;
+	font-size: 2vw;
 }
 table {
 	margin: 0 auto;
 }
 td {
 	border: solid 2px black;
-	width: 70px;
-	height: 70px;
+	width: 20em;
 	text-align: center;
 }
 .num {
 	margin: 0 auto;
-	font-size: 0.8em;
+	font-size: 1vw;
 	text-align: left;
 	vertical-align: bottom;
 }
 .atomic {
 	margin: 0 auto;
-	font-size: 0.8em;
+	font-size: 1vw;
 	text-align: right;
 	vertical-align: top;
 }
