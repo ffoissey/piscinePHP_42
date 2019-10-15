@@ -1,17 +1,19 @@
 #!/usr/bin/php
 <?php
-	if ($argc == 1)
-		exit();
-	$out = preg_replace('/ +/', ' ', $argv[1]);
+function get_filter_array($input)
+{
+	$out = preg_replace('/ +/', ' ', $input);
 	$out = preg_replace('/^ | $/', '', $out);
 	$tab = explode(' ', $out);
-	/* A LENVERS NORMALEMENT*/
-	foreach ($out as $element)
-	{
-		if ($element != $out[0])
-			echo " ";
-		echo $element;
-	}
-	echo "\n";
-	
+	return ($tab);
+}
+
+if ($argc == 1)
+	exit();
+$tab = get_filter_array($argv[1]);
+$first = array_shift($tab);
+foreach ($tab as $element)
+	echo "$element ";
+if (empty($first) == false)
+	echo "$first\n";
 ?>
