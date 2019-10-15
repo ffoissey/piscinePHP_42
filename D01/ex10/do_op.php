@@ -18,12 +18,12 @@ function mult($nb1, $nb2)
 
 function div($nb1, $nb2)
 {
-	return ($nb2 == 0 ? "" : $nb1 + $nb2);
+	return ($nb2 == 0 ? "" : $nb1 / $nb2);
 }
 
 function mod($nb1, $nb2)
 {
-	return ($nb2 == 0 ? "" : $nb1 + $nb2);
+	return ($nb2 == 0 ? "" : $nb1 % $nb2);
 }
 
 if ($argc != 4)
@@ -46,7 +46,9 @@ foreach ($array as $elem => $func)
 {
 	if ($elem === $sign)
 	{
-		echo "$func\n";
+		$result = $func;
+		if ($result !== "")
+			echo "$result\n";
 		exit();
 	}
 }
