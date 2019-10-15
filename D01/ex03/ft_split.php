@@ -1,4 +1,3 @@
-#!/usr/bin/php
 <?php
 
 function ft_split($str)
@@ -6,8 +5,8 @@ function ft_split($str)
 	$out = preg_replace('/ +/', ' ', $str);
 	$out = preg_replace('/^ | $/', '', $out);
 	$tab = explode(' ', $out);
-	sort($tab);
+	if (empty($tab) == false)
+		sort($tab);
 	return ($tab);
 }
-
 ?>
