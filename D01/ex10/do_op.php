@@ -31,7 +31,6 @@ if ($argc != 4)
 	echo "Incorrect Parameters\n";
 	exit();
 }
-
 $nb1 = trim($argv[1], " \t");
 $sign = trim($argv[2], " \t");
 $nb2 = trim($argv[3], " \t");
