@@ -76,7 +76,7 @@ $nb2 = array_shift($tab);
 if ($nb2 == "-" && count($tab) > 0)
 	$nb2 .= array_shift($tab);
 if (count($tab) > 0 || is_numeric($nb1) == false || is_numeric($nb2) == false
-		|| strlen($sign) != 1 || strpos("+-*/%", $sign) == false)
+		|| strlen($sign) != 1 || strpos("+-*/%", $sign) === false)
 	error();
 do_op($nb1, $sign, $nb2);
 ?>
