@@ -39,20 +39,19 @@ function error()
 function do_op($nb1, $sign, $nb2)
 {
 	$array = array(
-			'+' => add($nb1, $nb2),
-			'-' => minus($nb1, $nb2),
-			'*' => mult($nb1, $nb2),
-			'/' => div($nb1, $nb2),
-			'%' => mod($nb1, $nb2),
+			'+' => 'add',
+			'-' => 'minus',
+			'*' => 'mult',
+			'/' => 'div',
+			'%' => 'mod'
 			);
 
 	foreach ($array as $elem => $func)
 	{
 		if ($elem === $sign)
 		{
-			$result = $func;
-			if ($result !== "")
-				echo "$result\n";
+			$result = $func($nb1, $nb2);
+			echo "$result\n";
 			exit();
 		}
 	}
@@ -75,7 +74,7 @@ $sign = array_shift($tab);
 $nb2 = array_shift($tab);
 if ($nb2 == "-" && count($tab) > 0)
 	$nb2 .= array_shift($tab);
-if (count($tab) > 0 || is_numeric($nb1) == false || is_numeric($nb2) == false
+if (count($tab) > 0 || is_numeric($nb1) === false || is_numeric($nb2) === false
 		|| strlen($sign) != 1 || strpos("+-*/%", $sign) === false)
 	error();
 do_op($nb1, $sign, $nb2);

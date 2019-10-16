@@ -35,17 +35,17 @@ $nb1 = trim($argv[1], " \t");
 $sign = trim($argv[2], " \t");
 $nb2 = trim($argv[3], " \t");
 $array = array(
-			'+' => add($nb1, $nb2),
-			'-' => minus($nb1, $nb2),
-			'*' => mult($nb1, $nb2),
-			'/' => div($nb1, $nb2),
-			'%' => mod($nb1, $nb2),
+			'+' => 'add',
+			'-' => 'minus',
+			'*' => 'mult',
+			'/' => 'div',
+			'%' => 'mod'
 			);
 foreach ($array as $elem => $func)
 {
 	if ($elem === $sign)
 	{
-		$result = $func;
+		$result = $func($nb1, $nb2);
 		if ($result !== "")
 			echo "$result\n";
 		exit();
